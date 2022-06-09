@@ -13,7 +13,9 @@
 /* Body */
 body {
     background-color: #FCF9F4;
-    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    min-height: 480px;
     min-width: 330px;
 }
 
