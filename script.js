@@ -10,7 +10,7 @@ let email, register;
     register.disabled = true;
 
     function verify () {
-        if (document.forms[0].email.value=="" || document.forms[0].email.value.indexOf('@') ==-1 || document.forms[0].email.value.indexOf('.') == -1 ) {
+        if (document.forms[0].email.value == "" || document.forms[0].email.value.indexOf('@') == -1 || document.forms[0].email.value.indexOf('.') == -1 ) {
            register.disabled = true;
            register.style.background = '#F4D4A5';
            register.style.transition = '0.5s';
