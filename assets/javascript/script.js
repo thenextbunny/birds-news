@@ -1,12 +1,10 @@
 /* EN - The script performs the verification of the email written by the user in the input and if it is validated, the registration button is activated and its background changes. */
 /* PT - O script realiza a verificação do e-mail escrito pelo usuário no input e caso for validado o botão de cadastro é atividado e seu background muda. */
 
-let email, register;
-
-    email = document.getElementById('email');
+    const email = document.getElementById('email');
     email.addEventListener('keyup', verify);
 
-    register = document.getElementById('register');
+    const register = document.getElementById('register');
     register.disabled = true;
 
     function verify () {
@@ -23,3 +21,21 @@ let email, register;
             return true;
         }
     }
+
+/* EN - Checks if the user selected any language in select and redirects to the chosen page. */
+/* PT-BR - Verifica se o usuário selecionou algum idioma no select e redireciona para a página escolhida. */
+
+const selectLanguage = document.querySelector("select");
+
+selectLanguage.onchange = function () {
+    language = selectLanguage.value;
+    
+    switch (language) {
+        case "en":
+            location.href = "en.html";
+            break;
+        case "pt-br":
+            location.href = "index.html";
+        break;
+    }
+}
