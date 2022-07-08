@@ -3,19 +3,16 @@
 </div>
 <div>
   <h3>Sobre o projeto</h3>
-  <p>O projeto deste repositório é uma página inicial para um revista fictícia sobre aves, ou melhor, a ortinologia.</p>
+  <p>O projeto deste repositório é uma página inicial para um revista fictícia sobre aves, ou melhor, a ortinologia. O site conta com responsividade e a possibilidade de trocar o idioma para o inglês ou português.</p>
 
   ### [Clique aqui para visualizar a página final do projeto](https://thenextbunny.github.io/birds-news/)
   
   <h3>Linguagens utilizadas</h3>
   <ul>
-    <li>HTML5</li>
     <li>CSS3</li>
+    <li>HTML5</li>
     <li>JavaScript</li>
   </ul>
-  
-  <h3>É responsivo?</h3>
-  <p>Sim. O <a href="https://thenextbunny.github.io/birds-news/">birds.news</a> é um site totalmente responsivo, logo se adequa aos diferentes tipos de tela.</p>
 
   <h3>Imagens</h3>
   <h5>Desktop</h5>
