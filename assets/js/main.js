@@ -2,12 +2,9 @@
 /* PT - O script realiza a verificação do e-mail escrito pelo usuário no input e caso for validado o botão de cadastro é atividado e seu background muda. */
 
 const email = document.getElementById('email');
-email.addEventListener('keyup', verify);
+email.addEventListener('keyup', () => {
+    const register = document.getElementById('register');
 
-const register = document.getElementById('register');
-register.disabled = true;
-
-function verify () {
     if (document.forms[0].email.value == "" || document.forms[0].email.value.indexOf('@') == -1 || document.forms[0].email.value.indexOf('.') == -1 ) {
         register.disabled = true;
         register.style.background = '#F4D4A5';
@@ -20,14 +17,15 @@ function verify () {
         register.style.color = '#FFF';
         return true;
     }
-}
+});
 
+    
 /* EN - Checks if the user selected any language in select and redirects to the chosen page. */
 /* PT-BR - Verifica se o usuário selecionou algum idioma no select e redireciona para a página escolhida. */
 
 const selectLanguage = document.querySelector("select");
 
-selectLanguage.onchange = function () {
+selectLanguage.addEventListener('change', () => {
     language = selectLanguage.value;
     
     switch (language) {
@@ -38,4 +36,4 @@ selectLanguage.onchange = function () {
             location.href = "index.html";
         break;
     }
-}
+});
