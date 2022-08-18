@@ -15,5 +15,5 @@
   </ul>
 
   <h3>Imagem</h3>
-  <img src="https://user-images.githubusercontent.com/99208505/180580625-52b88a03-e953-4d81-9cfd-514f80273b9e.png" alt="Screenshot do site do birds.news para desktop">
+  <img src="https://user-images.githubusercontent.com/99208505/185438403-fdad526a-b4b5-481f-a733-4af600d0dc78.png" alt="Screenshot do site do birds.news para desktop">
 </div>
